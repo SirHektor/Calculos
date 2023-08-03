@@ -1,0 +1,75 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Open';
+    src: url(imagens/OpenSans-Regular.ttf);
+}
+
+body {
+    background: linear-gradient(to right, #6267D8, #ffe6cc, #ffffcc);
+    background-size: 200% auto;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+#secao {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.card {
+    height: 260px;
+    margin: 20px;
+    width: 250px;
+    background-color: white;
+    border: black solid 1px;
+
+}
+
+.imagem {
+    height: 145px;
+    width: auto;
+}
+h2 {
+    text-align: center;
+    font:200 20px 'Open', Sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font:200 20px 'Open', Sans-serif;
+    color: #6267D8;
+}
+
+
+
+
+
